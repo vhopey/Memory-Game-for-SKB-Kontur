@@ -1,0 +1,182 @@
+@font-face{
+	font-family: "OpenSans-Bold";
+	src: url(assets/font/OpenSans-Bold.ttf);
+}
+@font-face{
+	font-family: "OpenSans-Semibold";
+	src: url(assets/font/OpenSans-Semibold.ttf);
+}
+@font-face{
+	font-family: "Krungthep";
+	src: url(assets/font/Krungthep.ttf);
+}
+
+body {
+	background-color: #1C7430;
+	margin: 0px;
+}
+#app {
+	width: 1280px;
+	height: 600px;
+	position: fixed;
+	user-select: none;
+} 
+
+/*START_PAGE*/
+#StartPage{
+	width: 1280px;
+	height: 600px;
+	position: fixed;
+}
+#imagestart{
+	position: absolute;
+	left: 389px;
+	top: 94px;
+}
+#gameName {
+	position: absolute;
+	left: 531px;
+	top: 376px;
+	font-family:"OpenSans-Bold";
+	font-size: 28px;
+	color: #FFFFFF;
+	opacity: 0.85;
+	letter-spacing: 0.2px;
+}
+
+#startbutton {
+	position: absolute;
+	left: 569px;
+	top: 448px;
+ 	width: 144px;
+	height: 42px;
+	border: 0px;
+	padding: 0px;
+	opacity: 0.85;
+	background: #FFFFFF;
+	border-radius: 4px;
+	font-family: "OpenSans-Bold";
+	font-size: 16px;
+	color: #1C7430;
+	letter-spacing: 0;
+	cursor: pointer;
+ }
+/*GAME_PAGE*/
+#GamePage{
+	width: 1280px;
+	height: 600px;
+	position: fixed;
+}
+#anew_btn{
+	position: absolute;
+	left: 290px;
+	top: 54px;
+	width: 102px;
+	height: 19px;
+	border: 0px;
+	padding: 0px;
+	background: transparent;
+	border: hidden;
+	opacity: 0.8;
+	font-family: "OpenSans-Semibold";
+	font-size: 14px;
+	color: #FFFFFF;
+	white-space:nowrap;
+	letter-spacing: -0.25;
+	cursor: pointer;
+}
+#scores{
+	width: 64px;
+	height: 19px;
+	position: absolute;
+	left: 926px;
+	top:54px;
+	opacity: 0.8;
+	font-family: "OpenSans-Bold";
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing:0;
+}
+#Nscore{
+	width: 10px;
+	height: 18px;
+	position: fixed;
+	left: 980px;
+	top:55px;
+	opacity: 0.8;
+	font-family: "Krungthep";
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing:0;
+}
+#deck{
+	width:740px;
+	height:433px;
+	position: fixed;
+	left: 290px;
+	top:93px;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex:160px;
+}
+
+.card{
+	width: 100px;
+	height: 140px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	cursor: pointer;
+	
+}
+/*END_PAGE*/
+#EndPage{
+	width: 1280px;
+	height: 600px;
+	position: fixed;
+}
+#imageEnd{
+	position: absolute;
+	left: 382px;
+	top: 74px;
+	width: 516px;
+	height: 275px;
+}
+#endText{
+	position: absolute;
+	left: 488.5px;
+	top: 358px;
+	opacity: 0.85;
+	font-family: "OpenSans-Bold";
+	font-size: 24px;
+	color: #FFFFFF;
+	letter-spacing: 0.15px;
+	line-height: 35px;
+	text-align: center;
+}
+#again_btn {
+	position: absolute;
+	left: 576px;
+	top: 468px;
+ 	width: 128px;
+	height: 42px;
+	border: 0px;
+	padding: 0px;
+	opacity: 0.85;
+	background: #FFFFFF;
+	border-radius: 4px;
+	font-family: "OpenSans-Bold";
+	font-size: 16px;
+	color: #1C7430;
+	letter-spacing: 0;
+	cursor: pointer;
+ }
+ 
+.hide{
+	display: none;
+}
+
+
+

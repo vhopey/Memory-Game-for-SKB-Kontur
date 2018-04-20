@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Memory</title>
+	<link rel = "stylesheet" type = "text/css" href="style.css">
+</head>
+<body>
+<div id ="app"  data-tid="App">
+	<div id ="StartPage"  >
+		<img src="assets/img/StartCards.png" id = "imagestart">
+		<div id = "gameName" @font-face>
+		 MEMORY GAME 
+		</div>
+		<button id="startbutton" data-tid="NewGame-startGame" >Начать игру</button>
+	</div>
+	<div id = "GamePage" class = "hide">
+		<button id = "anew_btn" data-tid="Menu-newGame">
+			 Начать заново </button>
+		<div id = "scores">  Очки: 
+			<div id = "Nscore" data-tid="Menu-scores"> 0 </div>
+		</div>
+		<div id = "deck" class="flex" data-tid="Deck">
+			<div id = "card0" data-tid="Card">
+			</div>
+			<div id = "card1" data-tid="Card">
+			</div>
+			<div id = "card2" data-tid="Card">
+			</div>
+			<div id = "card3" data-tid="Card">
+			</div>
+			<div id = "card4" data-tid="Card">
+			</div>
+			<div id = "card5" data-tid="Card">
+			</div>
+			<div id = "card6" data-tid="Card">
+			</div>
+			<div id = "card7" data-tid="Card">
+			</div>
+			<div id = "card8" data-tid="Card">
+			</div>
+			<div id = "card9" data-tid="Card">
+			</div>
+			<div id = "card10" data-tid="Card">
+			</div>
+			<div id = "card11" data-tid="Card">
+			</div>
+			<div id = "card12" data-tid="Card">
+			</div>
+			<div id = "card13" data-tid="Card">
+			</div>
+			<div id = "card14" data-tid="Card">
+			</div>
+			<div id = "card15" data-tid="Card">
+			</div>
+			<div id = "card16" data-tid="Card">
+			</div>
+			<div id = "card17" data-tid="Card">
+			</div>	
+		</div>
+	</div>
+	<div id = "EndPage" class="hide" >
+		<img src="assets/img/EndCards.png" id="imageEnd" >
+		<div id = "endText">
+		</div>
+			<button id="again_btn" data-tid="EndGame-retryGame">
+				Еще раз</button>
+	</div>
+	<script src="js/jquery.js"> </script>
+	<script src="js/main.js"> </script>
+</div>
+</body>
+</html>
