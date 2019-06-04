@@ -1,1 +1,2 @@
-Memory Game for SKB Kontur
+Memory Game: test job for SKB Kontur.
+My first project on JavaScript.
